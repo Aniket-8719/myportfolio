@@ -8,7 +8,7 @@ const Service = () => {
   return (
     <>
       <section id="service">
-        <div className="container  lg:pt-5">
+        <div className="container  lg:pt-5 sm:mx-28 my-12 md:mx-12">
           <div className="text-center">
             <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
             What do I help

@@ -11,7 +11,7 @@ import heroImg from "../assets/hero img.png";
 const Home = () => {
   return (
     <>
-      <section id="home" className="justify-center items-center  md:mx-24 pt-4">
+      <section id="home" className="justify-center items-center  md:mx-12 pt-4">
         <div className="container flex flex-col gap-8 md:flex-row justify-center">
           <div className="md:flex justify-between items-center sm:flex-col md:flex-row">
             {/* ========== left content =========  */}
@@ -199,7 +199,7 @@ const Home = () => {
             data-aos-duration="1500"
             className="flex md:flex md:flex-row justify-center items-center h-full my-4"
           >
-            <img width={800} src={heroImg} alt="Hero images" />
+            <img width={1200} src={heroImg} alt="Hero images" />
           </div>
         </div>
       </section>
