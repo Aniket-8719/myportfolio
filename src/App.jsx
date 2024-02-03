@@ -5,11 +5,10 @@ import "aos/dist/aos.css";
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import About from './components/About'
+// import About from './components/About'
 import Service from './components/Service'
 import Contact from './components/Contact'
 import Project from './components/Project'
-import Numbers from './components/Numbers';
 import Footer from './components/Footer';
 
 
@@ -32,9 +31,8 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
      </Routes> */}
      <main>
-     <div className='mx-[30px] md:mx-[5px] lg:mx-[0px]'>
+     <div className='mx-12 sm:ml-12'>
       <Home/>
-      {/* <Numbers/> */}
       <Service/>
       <Project/>
       <Contact/>
