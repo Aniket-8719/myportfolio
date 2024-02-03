@@ -4,7 +4,7 @@ import CountUp from 'react-countup'
 const Numbers = () => {
   return (
     <>
-      <section id='Number' className='px-28'>
+      <section id='Number' className='px-28 mx-[90px]'>
       <div className='flex flex-col justify-between sm:gap-16 text-center mt-10
     md:flex-row  md:mt-20'>
       

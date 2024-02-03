@@ -32,7 +32,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
      </Routes> */}
      <main>
-     <div className=''>
+     <div className='mx-[30px] md:mx-[0px]'>
       <Home/>
       <Numbers/>
       <Service/>
