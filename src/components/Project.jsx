@@ -41,7 +41,7 @@ const Project = () => {
         <div className='flex items-center justify-between flex-wrap my-12 mb-8 md:mx-4'>
           <div className='mb-7 sm:mb-0'>
             <h3 className='text-headingColor text-[2.4rem] font-[700]'>
-               My recent projects
+               My Recent Projects
             </h3>
           </div>
           <div className='flex gap-3'>
