@@ -32,7 +32,7 @@ function App() {
      <main>
       <Home/>
       <Service/>
-      {/* <Pricing pricing={pricing}/> */}
+      <Pricing pricing={pricing}/>
       <Project/>
       <Contact/>
       <Footer/>
