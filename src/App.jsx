@@ -10,12 +10,6 @@ import Contact from './components/Contact'
 import Project from './components/Project'
 import Footer from './components/Footer';
 import Pricing from './components/Pricing';
-import pricing from  './data.js'
-
-
-
-
-
 
 function App() {
   Aos.init({
