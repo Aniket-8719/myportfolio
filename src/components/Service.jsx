@@ -7,13 +7,13 @@ import { FiFigma } from "react-icons/fi";
 const Service = () => {
   return (
     <>
-      <section id="service">
-        <div className="container  lg:pt-5">
-          <div className="text-center">
+      <section className="mt-12" id="service">
+        <div className="mx-8 md:mx-12">
+          <div className="text-center  md:mx-8">
             <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
             What do I help
             </h2>
-            <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
+            <p className=" lg:max-w-[800px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
             As a seasoned professional with a diverse skill set, I am confident in my ability to bring value across multiple roles within your dynamic startup. My background spans [3 years of experiences, in <span className="font-[700] mx-1">UI/UX design, web development, business analytics</span>], and I am eager to leverage this expertise to contribute to your ongoing success. and also helping organizations make informed decisions 
             that drive efficiency and growth. 
   

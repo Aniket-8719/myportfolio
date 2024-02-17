@@ -2,7 +2,6 @@ import React from 'react'
 // import {Route, Routes } from 'react-router-dom'
 import Aos from 'aos'
 import "aos/dist/aos.css";
-import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 // import About from './components/About'
@@ -10,6 +9,12 @@ import Service from './components/Service'
 import Contact from './components/Contact'
 import Project from './components/Project'
 import Footer from './components/Footer';
+import Pricing from './components/Pricing';
+import pricing from  './data.js'
+
+
+
+
 
 
 function App() {
@@ -31,12 +36,11 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
      </Routes> */}
      <main>
-     <div className='mx-12 sm:ml-12'>
       <Home/>
       <Service/>
+      {/* <Pricing pricing={pricing}/> */}
       <Project/>
       <Contact/>
-     </div>
       <Footer/>
      </main>
      </div>

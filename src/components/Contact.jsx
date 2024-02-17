@@ -3,8 +3,8 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-    <section id="contact" className='pb-16 md:mx-28 '>
-      <div className='container '>
+    <section id="contact">
+      <div className='pt-12 mx-8 md:mx-24 mb-12'>
         <h2 className='text-heading font-[700] text-[2.5rem] mb-8'>
           Get in touch
         </h2>
@@ -19,14 +19,14 @@ const Contact = () => {
           </div>
 
           <div className='w-full  md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center
-          rounded-lg bg-contactColor  px-4 lg:px-8 py-8'>
+          rounded-lg bg-white shadow-lg px-4 lg:px-8 py-8'>
             <form className='w-full'>
               <div className='mb-5'>
                 <input
                 required
                 type='text'
                 placeholder='Enter your name'
-                className='w-full p-3  focus:outline rounded-[5px] '>
+                className='w-full p-3   focus:outline rounded-[5px] '>
                 </input>
               </div>
               <div className='mb-5'>

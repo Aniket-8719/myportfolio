@@ -36,8 +36,8 @@ const Project = () => {
   },[selectTab]);
   return (
     <>
-    <section id='project'>
-      <div className=' md:mx-28 my-28'>
+    <section className='mt-12' id='project'>
+      <div className='mx-8 md:mx-24 '>
         <div className='flex items-center justify-between flex-wrap my-12 mb-8 md:mx-4'>
           <div className='mb-7 sm:mb-0'>
             <h3 className='text-headingColor text-[2.4rem] font-[700]'>

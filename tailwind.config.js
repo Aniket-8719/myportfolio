@@ -28,8 +28,10 @@ export default {
       'twitterColor': '#1DA1F2',
       'contactColor': '#F3F8FF',
       'footerColor': '#12141e',
-      'gray': '#A9A9A9'
-
+      'gray': '#A9A9A9',
+      'bgGreen': '#C1F2B0',
+      'facheck': '#65B741',
+      'cardBorder': '#607274'
     },
     extend: {},
   },
