@@ -40,7 +40,7 @@ const Project = () => {
       <div className='mx-8 md:mx-24 '>
         <div className='flex items-center justify-between flex-wrap my-12 mb-8 md:mx-4'>
           <div className='mb-7 sm:mb-0'>
-            <h3 className='text-headingColor text-[2.4rem] font-[700]'>
+            <h3 className='text-headingColor font-[800] text-[2.4rem] p-2 md:p-4'>
                My Recent Projects
             </h3>
           </div>
@@ -79,7 +79,7 @@ const Project = () => {
                   <img className='rounded-[8px]' src={portfolio.imgUrl} alt=''></img>
                 </figure>
 
-                <div className='w-full h-full bg-btnColor bg-opacity-40 absolute top-0 left-0 z-[5]
+                <div className='w-full h-full bg-btnColor rounded-[8px] bg-opacity-40 absolute top-0 left-0 z-[5]
                 hidden group-hover:block'>
                   <div className='w-full h-full flex items-center justify-center'>
                   <button 

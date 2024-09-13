@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const SocialMedia = () => {
   return (
     <>
-      <div className="mt-20 justify-center items-center">
+      <div className="justify-center items-center">
                 <div className="flex gap-4 items-center justify-center mb-6 md:gap-8">
                   <div
                     data-aos="fade-left"

@@ -10,9 +10,9 @@ import SocialMedia from "./SocialMedia";
 const Footer = () => {
   return (
     <>
-    <section className="bg-footerColor mb-8">
+    <section className="bg-footerColor">
       <div className="flex flex-col justify-center items-center mx-8 md:mx-12 pt-16">
-       <div className="flex flex-col md:flex md:flex-row justify-between basis-1/4">
+       <div className="flex flex-col md:flex md:flex-row justify-between md:gap-28 basis-1/4">
        <div className="flex flex-col  gap-2">
         <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]">
                 Do you want to make beautiful products?
@@ -35,17 +35,7 @@ const Footer = () => {
                 </button>
               </Link>
         </div>
-        <div className="flex flex-col basis-1/2">
-          <div>
-          <p className="text-gray leading-7 mt-4 sm:mt-0 ">
-              Versatile professional skilled in both UI/UX design and 
-              full-stack web development and many more in our digital world. 
-              With a keen eye for user-centered design principles, I bring creativity 
-              to crafting visually appealing interfaces. My integrated skill set allows 
-              me to seamlessly bridge the gap between design and development, resulting 
-              in engaging and functional digital experiences.
-              </p>
-          </div>
+        <div className="flex flex-col  basis-1/2">
           <div className="">
               <div className="mt-8 justify-center items-center">
                 <div className="flex gap-4 items-center justify-center mb-4 md:gap-8">
@@ -148,7 +138,7 @@ const Footer = () => {
         </div>
        </div>
          {/* ====== footer top end  ====== */}
-         <div className=" flex justify-center items-center py-4 pt-28 text-gray">
+         <div className=" flex justify-center items-center py-4 text-gray">
           <h2 className="text-[12px]  md:text-[12px]">
             <span>&copy;</span> copyrights 2024 developed by Aniket - All rights
             resserved

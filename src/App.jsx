@@ -9,8 +9,10 @@ import Service from './components/Service'
 import Contact from './components/Contact'
 import Project from './components/Project'
 import Footer from './components/Footer';
-import Pricing from './components/Pricing';
-import pricing from './data';
+import Skills from './components/Skills';
+import Education from './components/Education/Education';
+import Problemsolving from './components/Problem Solving section/Problemsolving';
+import Certificates from './components/Certifications/Certificates';
 
 function App() {
   Aos.init({
@@ -20,21 +22,16 @@ function App() {
 
   return (
     <>
-    
     <div className="overflow-hidden">
      <Navbar/>
-     {/* <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/project" element={<Project/>}/>
-      <Route path="/service" element={<Service/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/contact" element={<Contact/>}/>
-     </Routes> */}
      <main>
       <Home/>
-      <Service/>
-      <Pricing pricing={pricing}/>
+      {/* <Education/> */}
+      <Problemsolving/>
+      <Skills/>
+      {/* <Service/> */}
       <Project/>
+      <Certificates/>
       <Contact/>
       <Footer/>
      </main>

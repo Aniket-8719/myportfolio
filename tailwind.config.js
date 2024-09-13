@@ -21,7 +21,7 @@ export default {
       'grey' : '#EEEEEE',
       'headingColor' : '#2B2A4C',
       'smallheadingColor': '#DC84F3',
-      'btnColor' : '#B15EFF',
+      'btnColor' : '#36BA98',
       'instaColor': '#DD2A7B',
       'linkdinColor': '#0077B5',
       'githubColor': '#171515',
@@ -31,7 +31,9 @@ export default {
       'gray': '#A9A9A9',
       'bgGreen': '#C1F2B0',
       'facheck': '#65B741',
-      'cardBorder': '#607274'
+      'cardBorder': '#607274',
+      'borderop': '#D9D9D9',
+      'linkColor': '#5B99C2'
     },
     extend: {},
   },
